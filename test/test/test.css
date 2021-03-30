@@ -1,0 +1,146 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.background {
+    background: url('./images/todo.jpg') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.btn-color {
+    color: white !important;
+    border-color: #567ed3 !important;
+}
+
+
+
+.screen-logo {
+    color: orange;
+    font: italic bold 18px Arial;
+}
+
+.background__trans {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000ad;
+}
+
+.background h1 {
+    position: relative;
+    color: white;
+    font: italic bold 60px Arial;
+    margin: 0;
+    margin-left: 50px;
+
+
+}
+
+.background h1 {
+    text-align: center;
+}
+
+.background h1 span {
+    color: orange;
+}
+
+
+.about-us div {
+    text-align: center;
+    margin-top: 50px;
+    margin-top: 50px;
+
+}
+
+
+.about-us .row>div>span {
+    font-size: 40px;
+    color: rgb(51, 51, 75);
+
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 483px;
+    }
+
+    .tips .tips__time ul,
+    .tips .tips__goal ul {
+        margin-left: 10px;
+    }
+
+    .tips .tips__time span,
+    .tips .tips__goal span {
+        margin-left: 10px;
+    }
+
+
+}
+
+@media (max-width:588px) {
+    .background h1 {
+        font-size: 38px;
+
+    }
+}
+
+@media (max-width:992px) {
+
+
+    .tips .tips__time ul,
+    .tips .tips__goal ul {
+        margin-left: 0px;
+    }
+
+    .tips .tips__time span,
+    .tips .tips__goal span {
+        margin-left: 10px;
+    }
+}
+
+.tips div h3 {
+    display: inline;
+
+}
+
+.tips div {
+    margin-top: 30px;
+}
+
+.tips__time ul,
+.tips__goal ul {
+    margin-left: 150px;
+}
+
+.tips div span {
+    font-size: 30px;
+    margin-left: 120px;
+    color: #f7010191;
+}
+
+
+
+.tips .tips__time,
+.tips .tips__goal {
+    background-color: #DDD;
+    border-radius: 50px;
+}

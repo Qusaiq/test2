@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">To Do</a>
+          <li class="nav-item d-none d-lg-block ">
+            <a class="nav-link" href="#"><span class="screen-logo"><i class="fas fa-laptop"></i> Laptop </span></a>
+          </li>
+          <li class="nav-item d-none d-sm-block d-lg-none">
+            <a class="nav-link" href="#"><span class="screen-logo"><i class="fas fa-tablet-alt"></i> Tablet </span></a>
+          </li>
+          <li class="nav-item d-block d-sm-none ">
+            <a class="nav-link" href="#"><span class="screen-logo"><i class="fas fa-mobile"></i> Phone </span></a>
+          </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn-color" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<div class="background" >
+<div class="background__trans"></div>
+<h1 data-aos="flip-down">Welcome To<span>To-Do</span> List</h1>
+</div>
+
+<div class="container about-us" >
+  <div class="row" >
+<div data-aos="fade-up-right" class="col-lg-3 col-sm-6 col-12 "  >
+  <span><i class="fas fa-user-circle"></i></span>
+    <h3>Account</h3>
+    <p>create your  account with full privacy to register with us to be in touch</p>
+</div>
+<div data-aos="fade-up-right" class="col-lg-3 col-sm-6 col-12">
+  <span><i class="fas fa-user-secret"></i></span>
+    <h3>Privacy</h3>
+    <p>Your privacy is our responsibility, your info,password,data in our secret box</p>
+</div>
+<div data-aos="fade-up-right"class="col-lg-3 col-sm-6 col-12 " >
+  <span><i class="fas fa-address-card"></i></span>
+    <h3>About us</h3>
+    <p>We are a company that helps people organize their personal tasks </p>
+</div>
+<div data-aos="fade-up-right"class="col-lg-3 col-sm-6 col-12 " >
+  <span><i class="fas fa-address-card"></i></span>
+    <h3>Contact us</h3>
+    <p>feel free to contact us on our mail or phone to have any details about us</p>
+</div>
+</div>
+</div>
+<div class="tips container" >
+  <div class="row">
+  <div class="tips__time col-md-6 col-12" data-aos="fade-right">
+    <span><i class="fas fa-clock"></i></span>
+    <h3>Time Management</h3>
+    <ul>
+      <li>Set goals correctly</li>
+      <li>Prioritize wisely</li>
+      <li>Set a time limit</li>
+      <li>Take breaks between tasks</li>
+      <li>Organize yourself</li>
+      <li>Remove none-essential tasks</li>
+      <li>plan ahead</li>
+    </ul>
+  </div>
+  <div class="tips__goal col-md-6 col-12" data-aos="fade-left">
+    <span><i class="fas fa-bullseye"></i></span>
+    <h3>Set Goals</h3>
+    <ul>
+      <li>Choose goals that are worthwhile</li>
+      <li>Make your goals specific</li>
+      <li>Commit to your goals</li>
+      <li>Prioritize your goals</li>
+      <li>Make your goals real to you</li>
+      <li>Set deadlines to accomplish your goals</li>
+      <li>Evaluate your goals</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="./bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js"></script>
+<script defer src="./fontawesome-free-5.15.1-web/js/solid.js"></script>
+<script defer src="./fontawesome-free-5.15.1-web/js/brands.js"></script>
+<script defer src="./fontawesome-free-5.15.1-web/js/fontawesome.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="test.js"></script>   
+</body>
+</html>
